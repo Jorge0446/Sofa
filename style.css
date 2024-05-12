@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+/* font-family: "Crimson Pro", serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Lato", sans-serif; */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Textos: #271A45;
+    --Fundo: #D9CDF7;
+}
+
+
+
+body {
+    background: var(--Fundo);
+    color: var(--Textos);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 449px;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemsof {
+    margin: 27px 0px 4px 0px;
+    margin-bottom: 4px;
+}
+
+.content {
+    width: 281px;
+    height: 142px;
+}
+
+p {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    margin: 12px 0px;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+button {
+    font-family: "Lato", sans-serif;
+    margin-top: 20px;
+    width: 148px;
+    height: 32px;
+    border-radius: 999px;
+    border: var(--Textos) solid 0.5px;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 8px;
+    background: var(--Fundo);
+}
+
+button:hover, button a:hover {
+    font-family: "Lato", sans-serif;
+    margin-top: 20px;
+    width: 148px;
+    height: 32px;
+    border-radius: 999px;
+    border: var(--Textos) solid 0.5px;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 8px;
+    background: var(--Textos);
+    color: var(--Fundo);
+}
+
+button a {
+    text-decoration: none;
+    color: var(--Textos);
+}
